@@ -30,7 +30,7 @@ Installing the WAPT Server
 
 * The installation of WAPT still needs ports 80 and 443 be available
   when installing the WAPT Server, so the first step consists of stopping
-  the service that listens on ports 80 and / or 443 (IIS / Anti-virus).
+  the service that listens on ports 80 and/or 443 (IIS / Anti-virus).
 
 * launch now the installation of the WAPT Server and follow the
   post-configuration procedure, but do not launch the WAPT console.
