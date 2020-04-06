@@ -19,7 +19,7 @@ Installing WAPT Server on Windows
   * The WAPT Server can not be installed on a computer with services already
     listening on ports 80 and 443 (example WSUS with IIS).
 
-  * ports 80, 443 and 8080 are used by the WAPT Server and must be available;
+  * ports 80, 443 and 8088 are used by the WAPT Server and must be available;
 
   * If ports 80 and 443 are already occupied by another web service,
     you should take a look at the documentation for :ref:`changing the default
@@ -37,7 +37,7 @@ Installing WAPT Server on Windows
 
   **From WAPT Server 1.5 onward**, :program:`Nginx` is the **ONLY**
   supported web server. **Apache or IIS (with or without WSUS) are no longer
-  supported in WAPT**.
+  supported by WAPT**.
 
 In case of problems when installing WAPT, visit the :ref:`Frequently
 Asked Questions <wapt_faq>`.
@@ -49,7 +49,7 @@ Asked Questions <wapt_faq>`.
   * the WAPT Server may be installed on **64bit only** Windows 7, 8.1, 10
     and Windows Server 2008/R2, 2012/R2, 2016 and 2019;
 
-* download and execute `waptserversetup.exe <http://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_;
+* download and execute `waptserversetup.exe <https://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_;
 
 * choose the installation language;
 
@@ -59,8 +59,8 @@ Asked Questions <wapt_faq>`.
 
   Choose the language for WAPT
 
-* accept the GNU Public License and click on :guilabel:`Next` to go on
-  to the next step;
+* accept the GNU Public License and click on :guilabel:`Next` to go to
+  the next step;
 
 .. figure:: windows-accept-wapt-license.png
   :align: center
@@ -69,7 +69,7 @@ Asked Questions <wapt_faq>`.
   Accept the WAPT license terms
 
 * choose the installation directory (leave the default) and click
-  on :guilabel:`Next` to go on to the next step;
+  on :guilabel:`Next` to go to the next step;
 
 .. figure:: windows-installation-folder.png
   :align: center
@@ -92,7 +92,6 @@ Asked Questions <wapt_faq>`.
   :alt: Choose Password
 
   Choose Password
-
 
 * create a key if this is your first installation,
   otherwise select the existing key;
