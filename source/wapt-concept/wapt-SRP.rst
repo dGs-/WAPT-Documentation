@@ -45,7 +45,7 @@ or ideally by your own Organisation.**
   of their users and be quick to cycle a solid solution into production
   when a legitimate user need arises.
 
-SRPs since Windows7
+SRPs since Windows 7
 -------------------
 
 SRPs have existed in Professional Edition since Windows XP.
@@ -53,14 +53,14 @@ They can be managed by setting :abbr:`GPO (Group Policy Object)` with
 the :abbr:`RSAT (Remote Server Administration Tool)` console
 in an Active Directory Environment.
 
-In Windows7 and Windows8 Enterprise version, SRPs are called *Applocker*
+In Windows 7 and Windows 8 Enterprise version, SRPs are called *Applocker*
 and come with some additional features over simple SRPs.
 *Applocker* rules are deployed using GPO.
 
-SRPs with Windows10 and beyond
+SRPs with Windows 10 and beyond
 ------------------------------
 
-In Windows10, SRPs and *Applocker* are replaced with a thing called
+In Windows 10, SRPs and *Applocker* are replaced with a thing called
 WDAC or `Windows Defender Application Control <https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control>`_.
 
 We believe this move demonstrates the underlying strategy from Microsoft
@@ -109,7 +109,7 @@ we can have the following benefits:
   because WDAC rules can be managed using WAPT instead of GPOs
   in Active Directory;
 
-* the telemetry in Windows10 Professional can be mostly tamed using
+* the telemetry in Windows 10 Professional can be mostly tamed using
   off-she-shelf WAPT packages and firewall and proxy rules;
 
 * entities can insure *Software Restriction Policies* **compliance on devices
