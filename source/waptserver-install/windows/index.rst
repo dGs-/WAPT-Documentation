@@ -19,7 +19,7 @@ Installing WAPT Server on Windows
   * The WAPT Server can not be installed on a computer with services already
     listening on ports 80 and 443 (example WSUS with IIS).
 
-  * ports 80, 443 and 8088 are used by the WAPT Server and must be available;
+  * ports 80, 443 and 8080 are used by the WAPT Server and must be available;
 
   * If ports 80 and 443 are already occupied by another web service,
     you should take a look at the documentation for :ref:`changing the default
