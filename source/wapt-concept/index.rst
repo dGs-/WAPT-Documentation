@@ -30,8 +30,8 @@ of computer desktops, laptops, tablets running a Microsoft Windows client
 (from XP to 10), their deployed base of Windows servers
 (from 2003 to 2019) or their deployed base of Windows Intel tablets.
 
-Private companies of all sizes, Colleges, Schools, Universities, research labs,
-local and state governments, Hospitals, city hall,
+Private companies of all sizes, colleges, schools, universities, research labs,
+local and state governments, hospitals, city hall,
 state ministries are successfully using **WAPT**.
 
 **WAPT** exists in two versions, **Community** and **Enterprise**.
@@ -100,7 +100,7 @@ WAPT relies on a small set of fundamental hypotheses:
 Fundamental principles
 ----------------------
 
-Package/ Repository principle
+Package / Repository principle
 +++++++++++++++++++++++++++++
 
 WAPT packages
@@ -156,7 +156,7 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt/.
 *Group* packages
 """"""""""""""""
 
-They are groups/ bundles of packages.
+They are groups / bundles of packages.
 
 .. hint::
 
@@ -282,13 +282,13 @@ or :term:`Package Deployer` has defined for it.
   When attributing a software package to a host as a dependency,
   only the software canonical name without its version number is registered
   as a dependency (ex: *I want Freemind to be installed on this machine
-  in its latest version and :program: `Freemind` to be configured
-  so that the :term: `User` does not call me because she does not find
+  in its latest version and* :program:`Freemind` *to be configured
+  so that the* :term:`User` *does not call me because she does not find
   the icon on her desktop!*).
 
 For each dependency, the WAPT agent will take care of automatically installing
 the latest available package version. So if several versions
-of :program: `Freemind` are available on the repository, the WAPT agent
+of :program:`Freemind` are available on the repository, the WAPT agent
 will always get the latest version, unless I have pinned the version
 for reason of compatibility with other sets of tools.
 
@@ -320,7 +320,7 @@ Private key / Public key principle
 
   Private key/ public certificate
 
-To work properly, WAPT requires a private key/ public key pair (self-signed,
+To work properly, WAPT requires a private key / public key pair (self-signed,
 issued by an internal :term:`Certificate Authority` or commercially issued).
 
 The **private key** will be used to **sign** WAPT packages whereas
@@ -355,7 +355,7 @@ The private certificate is important
    Indeed, WAPT security is based on keeping the private key **private**.
 
    The private key must be stored in a safe place,
-   because **she who has your key controls your network**!
+   because **whoever has your key controls your network**!
 
    Finally, to ensure maximum security, the private key can be secured
    in a smartcard or a cryptographic token that WAPT :term:`Administrators`
@@ -370,7 +370,7 @@ The private certificate is important
 WAPT architecture and operating mode
 ------------------------------------
 
-Inventory/ information feedback
+Inventory / information feedback
 +++++++++++++++++++++++++++++++
 
 WAPT keeps a hardware and software inventory of each host.
@@ -477,7 +477,7 @@ WAPT agent behavior with packages install / remove / session_setup / audit
 A key concept that can be hard to understand is the behavior of a WAPT agent
 when installing a package and the considerations around it.
 
-WAPT agent package installation can be split in SSS steps:
+WAPT agent package installation can be split in several steps:
 
 * package downloaded in agent cache;
 
@@ -580,8 +580,8 @@ by WAPT agents:
   In the Community version of WAPT, access to inventory data is only possible
   through the WAPT console.
 
-  WAPT **Enterprise** 1.7 will come with a *Business Intelligence*
-  like web based reporting.
+  Since WAPT **Enterprise** 1.7 a *Business Intelligence*
+  like web based reporting is available.
 
 Proxy role
 """"""""""
@@ -632,7 +632,7 @@ order to launch the upgrade.
 upgrade
 """""""
 
-When we launch a command :command:`upgrade` (from the WAPT console,
+When we launch a :command:`upgrade` command (from the WAPT console,
 using the command line, with a Windows scheduled task or manually
 with the WAPT tray), we ask the WAPT agent to install the packages
 with a *NEED-UPGRADE* status.
@@ -643,7 +643,7 @@ otherwise the agent will not know whether updates are available.
 Working principle of the WAPT agent
 +++++++++++++++++++++++++++++++++++
 
-By default, the WAPT agent will trigger an :command:`update`/ a
+By default, the WAPT agent will trigger an :command:`update` / a
 :command:`download-upgrade` at startup; after starting up, the WAPT agent
 will check every 2 hours to see whether it has something to do.
 
@@ -660,7 +660,7 @@ be able to install cached packages.
 Inventory updates will then be sent to the WAPT Server
 when network connectivity returns.
 
-The 4 goals of the WAPT agent are therefore:
+The 5 goals of the WAPT agent are therefore:
 
 * to install a *base*, a *group* or a *unit* package if it is available;
 
