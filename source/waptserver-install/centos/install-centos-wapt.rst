@@ -11,13 +11,13 @@
 
 .. _install_wapt_centos:
 
-Installing the WAPT Server on CentOS / RedHat
+Installing the WAPT Server on CentOS/RedHat
 +++++++++++++++++++++++++++++++++++++++++++++
 
 .. attention::
 
-  The upgrade procedure is different from installation. For upgrade, please
-  refer to :ref:`Upgrading the WAPT Server <upgrade-wapt>`.
+  The upgrade procedure is different from installation.
+  For upgrade, please refer to :ref:`Upgrading the WAPT Server <upgrade-wapt>`.
 
 Installing the WAPT Server runs a few steps:
 
@@ -147,9 +147,10 @@ Post-configuring
 
   * Choice #2 activates the initial registration based on Kerberos. (you can activate it later);
 
-  * choice #3 does not activate the kerberos authentication mechanism for the
-    initial registering of machines equipped with WAPT. The WAPT server will
-    require a login and password for each machine registering with it;
+  * choice #3 does not activate the kerberos authentication mechanism
+    for the initial registering of machines equipped with WAPT.
+    The WAPT server will require a login and password for each machine
+    registering with it;
 
   .. code-block:: bash
 
@@ -221,14 +222,14 @@ Listing of post-configuration script options:
 
 .. tabularcolumns:: |\X{2}{12}|\X{10}{12}|
 
-=============== ================================================================
-Flag            Definition
-=============== ================================================================
-*--force-https* Configures :program:`Nginx` so that *port 80
-                is permanently redirected to 443*
-=============== ================================================================
+================= ================================================================
+Flag              Definition
+================= ================================================================
+``--force-https`` Configures :program:`Nginx` so that *port 80
+                  is permanently redirected to 443*
+================= ================================================================
 
 The WAPT Server is now ready.
 
-You may go to the documentation on :ref:`installing
-the WAPT console <installing_the_WAPT_console>`!!
+You may go to the documentation on :ref:`installing the WAPT console
+<installing_the_WAPT_console>`!!

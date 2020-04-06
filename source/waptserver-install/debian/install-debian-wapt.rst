@@ -119,7 +119,7 @@ Post-configuring
 
     *****************
 
-    < OK >          < Cancel >
+            < OK >          < Cancel >
 
 * confirm the password;
 
@@ -129,7 +129,7 @@ Post-configuring
 
     *****************
 
-    < OK >          < Cancel >
+            < OK >          < Cancel >
 
 * choose the authentication mode for the initial registering of the WAPT agents;
 
@@ -213,13 +213,12 @@ Listing of post-configuration script options:
 
 .. tabularcolumns:: |\X{2}{12}|\X{10}{12}|
 
-=============== ================================================================
-Flag            Definition
-=============== ================================================================
-*--force-https* Configures :program:`Nginx` so that *port 80
-                is permanently redirected to 443*
-=============== ================================================================
-
+================= ================================================================
+Flag              Definition
+================= ================================================================
+``--force-https`` Configures :program:`Nginx` so that *port 80
+                  is permanently redirected to 443*
+================= ================================================================
 
 The WAPT Server is now ready.
 

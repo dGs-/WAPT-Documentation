@@ -30,9 +30,8 @@ Configuring the name of WAPT Server
 
 .. hint::
 
-  The short name of the WAPT Server must not be longer
-  than 15 characters (the limit is due to sAMAccountName restriction
-  in Active Directory).
+  The short name of the WAPT Server must not be longer than 15 characters
+  (the limit is due to sAMAccountName restriction in Active Directory).
 
 The name of the WAPT Server must be a :abbr:`FQDN (Fully Qualified Domain Name)`,
 that is to say it has both the server name and the DNS suffix.
@@ -80,10 +79,8 @@ Configuring the IP address of the WAPT Server
 * apply the network configuration by rebooting the machine
   with a :code:`reboot`;
 
-* if it has not already been done, create the DNS entry for the WAPT Server
-  in the :term:`Organization`'s Active Directory;
-
-* :ref:`srv_dns`
+* if it has not already been done, :ref:`create the DNS entries
+  for the WAPT Server <srv_dns>` in the :term:`Organization`'s Active Directory;
 
 * after reboot, configure the system language in English in order to have
   non-localized logs for easier searching of common errors;

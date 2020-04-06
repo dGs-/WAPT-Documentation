@@ -11,7 +11,7 @@
 
 .. _install_base_centos:
 
-Configuring the CentOS/ RedHat server
+Configuring the CentOS/RedHat server
 +++++++++++++++++++++++++++++++++++++
 
 In order to install a fresh CentOS7 machine (virtual or physical)
@@ -44,8 +44,8 @@ that is to say it has both the server name and the DNS suffix.
   # /etc/hostname du waptserver
   srvwapt.mydomain.lan
 
-* configure the :file:`/etc/hosts` file, be sure to put both
-  the :term:`FQDN` and the short name of the server;
+* configure the :file:`/etc/hosts` file, be sure to put both the :term:`FQDN`
+  and the short name of the server;
 
 .. code-block:: bash
 
@@ -89,7 +89,7 @@ Configuring the IP address of the WAPT Server
     reboot
 
 * if it has not already been done, :ref:`create the DNS entries
-  for the WAPT Server <srv_dns>` in the :term:`Organization` Active Directory;
+  for the WAPT Server <srv_dns>` in the :term:`Organization`'s Active Directory;
 
 * after reboot, configure the system language in English in order to have
   non-localized logs for easier searching of common errors;
@@ -129,4 +129,4 @@ Configuring the IP address of the WAPT Server
   yum install epel-release wget sudo
 
 You may now go on to the next step and :ref:`install WAPT on your
-CentOS/ RedHat <install_wapt_centos>`.
+CentOS/RedHat <install_wapt_centos>`.
